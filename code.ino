@@ -12,8 +12,8 @@
 char ssid[] = "TOPNET_CD70"; // your network SSID (name)
 char pass[] = "fwh29fy4eo"; // your network password
 WiFiClient client;
-unsigned long myChannelNumber = 1695428;
-const char * myWriteAPIKey = "KVCIPAW27UTCFOBM";
+unsigned long myChannelNumber = this is changable;
+const char * myWriteAPIKey = "this is changable";
 DHT dht(5, DHT11);
 float temp = 0; // setup a int to simulate a temp
 float hum = 0;
@@ -25,8 +25,8 @@ float hum = 0;
 #include <addons/RTDBHelper.h>
 
 /* 1. Define the WiFi credentials */
-#define WIFI_SSID "TOPNET_CD70"
-#define WIFI_PASSWORD "fwh29fy4eo"
+#define WIFI_SSID "this is changeable"
+#define WIFI_PASSWORD "this is changeable"
 #define SS_PIN 21
 #define RST_PIN 22
 // Déclaration 
@@ -44,11 +44,10 @@ int pos = 0;    // variable to store the servo position
 //For the following credentials, see examples/Authentications/SignInAsUser/EmailPassword/EmailPassword.ino
 
 /* 2. Define the API Key */
-#define API_KEY "6HKYT31Xeh3K7XxAjzfg5x2F3WVEEWMOY1XFy8tp"
+#define API_KEY "this is changeable"
 
 /* 3. Define the RTDB URL */
-#define DATABASE_URL "https://project-iot-613d3-default-rtdb.firebaseio.com/" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
-
+#define DATABASE_URL this is changeable
 
 
 //Define Firebase Data object
