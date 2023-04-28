@@ -12,7 +12,7 @@
 char ssid[] = "TOPNET_CD70"; // your network SSID (name)
 char pass[] = "fwh29fy4eo"; // your network password
 WiFiClient client;
-unsigned long myChannelNumber = this is changable;
+unsigned long myChannelNumber = "this is changable";
 const char * myWriteAPIKey = "this is changable";
 DHT dht(5, DHT11);
 float temp = 0; // setup a int to simulate a temp
